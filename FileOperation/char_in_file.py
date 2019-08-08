@@ -1,7 +1,5 @@
-rd_file = open('testfile.txt').read()
-count = 0
+rd_file = open('testfile.txt',"r")
 for char in rd_file:
-    count += 1
-    print (char)
+      print (char)
 print("count of characters in file ",count)
 
